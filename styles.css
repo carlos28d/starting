@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Bukhari Script';
+    src: url('/Bukhari_Script.ttf') format('truetype');
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    margin: 20px;
+}
+
+section {
+    margin: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 20px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+h3 {
+    font-size: 30px;
+    margin: 20px;
+}
+
+p {
+    font-size: 28px;
+}
+
+.color {
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+}
+
+#d-purple {
+    background-color: rgb(179,122,209);
+}
+
+#l-yellow {
+    background-color: #fff1b8;
+} 
+
+#b-pink {
+    background-color: rgb(255, 81, 246);
+}
+
+#ztz {
+    font-family: "Zen Tokyo Zoo";
+}
+
+#examples {
+    margin: 20px;
+}
+
+#color-bundle {
+    margin: 20px;
+}
