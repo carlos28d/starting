@@ -13,29 +13,29 @@ body {
     font-family: sans-serif;
 }
 
-header {
+header, section, h1, h2, h3, div {
     margin: 20px;
 }
 
 section {
-    margin: 20px;
+    border: 2px solid black;
 }
 
 h1 {
     font-size: 50px;
     font-weight: bolder;
-    margin: 20px;
 }
 
 h2 {
     font-size: 40px;
     font-weight: bold;
-    margin: 20px;
+    font-family: 'Roboto';
 }
 
 h3 {
     font-size: 30px;
-    margin: 20px;
+    font-family: 'Montserrat';
+    font-weight: normal;
 }
 
 p {
@@ -60,14 +60,33 @@ p {
     background-color: rgb(255, 81, 246);
 }
 
-#ztz {
-    font-family: "Zen Tokyo Zoo";
+#l-blue {
+    background-color: rgba(148,211,246,255);
 }
 
-#examples {
-    margin: 20px;
+#ztz {
+    font-family: "Zen Tokyo Zoo";
+    font-size: 25px;
 }
+
+#bs {
+    font-family: "Bukhari Script";
+    font-size: 90px;
+}
+
 
 #color-bundle {
     margin: 20px;
+    text-align: center;
+}
+
+#buttons a {
+    font-family: 'Zen Tokyo Zoo', sans-serif;
+    font-size: 25px;
+    color: rgb(255, 252, 79);
+    text-decoration: none;
+    background-color: #7c00ad;
+    box-shadow: 0px 4px;
+    border-radius: 20px;
+    padding: 7px;
 }
